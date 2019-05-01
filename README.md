@@ -32,6 +32,12 @@ Enable powerline glyps in statusline. _(default = 0)_
 set -g @srcery_tmux_patched_font '1'
 ```
 
+### Append to the right status
+Enable you to pass extra stuffs to your right status
+```tmux
+set -g @srcery_tmux_right_status 'text on the right m8'
+```
+
 ## Inspiration
 * [Nord tmux](https://github.com/arcticicestudio/nord-tmux)
 * [tmux-themepack](https://github.com/jimeh/tmux-themepack)
